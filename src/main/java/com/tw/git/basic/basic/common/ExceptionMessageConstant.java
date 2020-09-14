@@ -1,0 +1,21 @@
+package com.tw.git.basic.basic.common;
+
+public class ExceptionMessageConstant {
+
+  private ExceptionMessageConstant() {}
+
+  public static final String USERNAME_NOT_NULL = "用户名不为空";
+
+  public static final String USERNAME_ILLEGAL = "用户名不合法";
+
+  public static final String USERNAME_REPEAT = "用户名已存在";
+
+  public static final String PASSWORD_NOT_NULL = "密码不为空";
+
+  public static final String PASSWORD_ILLEGAL = "密码不合法";
+
+  public static final String EMAIL_ILLEGAL = "邮箱地址不合法";
+
+  public static final String USERNAME_PASSWORD_WRONG = "用户名或密码错误";
+
+}
